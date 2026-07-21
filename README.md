@@ -8,7 +8,7 @@ This project showcase a data warehousing and analytics solution, from building a
 
 ## Project Requirement
 
-### ![HI](https://img.shields.io/badge/!-000000?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=#41BDF5)Building the Data Warehouse
+### ![HI](https://img.shields.io/badge/000000?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=#41BDF5)Building the Data Warehouse
 
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data , enabling analytical reporting and informed decision making.
@@ -26,6 +26,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data , ena
 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights such as:
-  **Customer Behavior**
-  **Product Performance**
-  **Sales Trends**
+  **Customer Behavior**.
+  **Product Performance**.
+  **Sales Trends**.

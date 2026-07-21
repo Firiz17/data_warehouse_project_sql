@@ -1,2 +1,3 @@
-# data_warehouse_project_sql
-Using SQL server to build a data warehouse, including ETL processes, data modeling and analytics.
+# Data Warehouse and Analytics Project
+
+Welcome to my humble **Data Warehouse and Analytics Project** repo [https://img.shields.io/badge/status-active-brightgreen](https://img.shields.io/badge/status-active-brightgreen)

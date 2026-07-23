@@ -38,7 +38,7 @@ FROM bronze.crm_cust_info;
 
 --====================================================
 
---Overall cleaning and Insert into
+--Overall cleaning and LOAD
 INSERT INTO silver.crm_cust_info(
 	cst_id,
 	cst_key,

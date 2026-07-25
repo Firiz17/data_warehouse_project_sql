@@ -1,5 +1,5 @@
 # 🛒 Data Dictionary for Gold Layer
-`
+---
 
 ## 📖 Overview
 The `gold.fact_sales` view is the central fact table for analyzing sales performance. It contains granular, transaction-level data for all sales orders, including pricing, quantities, and total sales amounts. 
@@ -8,7 +8,7 @@ This view is optimized for Business Intelligence (BI) and reporting, providing f
 
 ---
 
-###1. gold.fact_sales
+### 1. gold.fact_sales
 
 | Column Name | Data Type (Expected) | Source Column | Description |
 | :--- | :--- | :--- | :--- |

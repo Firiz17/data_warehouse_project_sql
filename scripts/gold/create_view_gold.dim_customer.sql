@@ -20,3 +20,21 @@ LEFT JOIN silver.erp_cust_az12 cb
 ON ci.cst_key = cb.cid
 LEFT JOIN silver.erp_loc_a101 cl
 ON ci.cst_key = cl.cid;
+
+--Check how to aggregate
+--When the gender is different from crm and erp
+--Consult with source system handler, ask which one is the master data
+SELECT DISTINCT
+	ci.cst_gndr,
+	cb.gen,
+	CASE
+		WHEN ci.cst_gndr != 'n/a' THEN ci.cst_gndr --If the data from CRM is other than na,then choose that
+		ELSE COALESCE(cb.gen,'n/a')
+	END AS new_gen
+FROM silver.crm_cust_info ci
+LEFT JOIN silver.erp_cust_az12 cb
+ON ci.cst_key = cb.cid
+LEFT JOIN silver.erp_loc_a101 cl
+ON ci.cst_key = cl.cid
+ORDER BY 1,2
+

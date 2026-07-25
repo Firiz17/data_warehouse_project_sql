@@ -24,9 +24,3 @@ This view is optimized for Business Intelligence (BI) and reporting, providing f
 
 ---
 
-	
-FROM silver.crm_sales_details AS sd
-LEFT JOIN gold.dim_product AS dp
-  ON sd.sls_prd_key = dp.product_number
-LEFT JOIN gold.dim_customer AS dc
-  ON sd.sls_cust_id = dc.customer_id;
